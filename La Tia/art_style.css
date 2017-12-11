@@ -1,0 +1,139 @@
+html {
+	margin: 0;
+	padding: 0;
+ }
+body { 
+		
+    font-family:'source sans pro';
+    font-size: 24px;
+	line-height: 24px;
+    color: #000;
+
+} 
+ul{
+    list-style: none;
+    margin-left:20px;
+    margin-right: 60px;
+    padding-bottom: 10px;
+    font-family:'source sans pro';
+    font-size: 24px;
+	line-height: 0px;
+    color: #000000;
+    text-align: center;
+    align-content: top;
+
+
+}
+
+li{
+    display: inline;
+    padding-right: 50px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #6D000D;
+    font-family:'source sans pro';
+    font-feature-settings: bold;
+    
+}
+ 
+a:selected{
+    color: #6D000D;
+    font-family:'source sans pro';
+    font-feature-settings: bold;  
+}
+
+h1 {font-family:'source sans pro';
+    font-feature-settings: bold;
+    font-size: 30px;
+    margin-left: 96px;
+    }
+h2{font-family:'source sans pro';
+    font-feature-settings: bold;
+    font-size: 24px;
+    
+}
+
+input[type=upload_art] {
+    background-color:#6D000D;;
+    color: white;
+    width: 120px;
+    height: 35px;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1065px;
+    margin-bottom: 32px;
+    font-family: 'source san pro';
+    font-size: 14px;
+}
+
+input[type=upload_art]:hover {
+    background-color: #00E8FF;
+}
+
+p{    margin-left: 95px;
+      margin-right: 100px;
+      padding-top: 33px;
+      padding-bottom: 4px;
+      font-family:'source sans pro';
+      font-size: 18px;
+      line-height: 21px;
+}
+#filter{
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+
+.artist{
+    column-span 1;
+
+}
+
+img{
+
+    padding-right: 36px;
+    align-content: center;
+}
+ 
+
+
+#parent {
+    grid-template-columns: 1fr 1fr 1fr;
+   /* grid-template-rows: 1fr 1fr 1fr;*/
+    display: grid;
+    padding-left: 96px;
+
+}
+
+.highlight {
+    column-span: 1;
+    padding-bottom: 80px;
+}
+
+#footer{
+    background-color: #000000;
+    width: 1445;
+    height:130;
+    margin: 0 auto;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+
+.bar {
+    color: white;
+    font-family: "source sans pro";
+    font-style: italic;
+    line-height: 20px; 
+    padding-top: 28px;
+    text-align: center; align-content: center;
+    font-size: 16px; 
+    
